@@ -104,9 +104,13 @@ Academic Year: 2025–2026
 Team Contributions
 The project work was divided across development, research, requirements, testing, documentation, and presentation activities. The summaries below describe the team's reported areas of responsibility.
 Team Member	Role	Contribution Summary
+
 Muchatla Anoshreddy	Team Lead / Full-Stack Development	Coordinated overall project development; worked on frontend and backend implementation, database integration, machine-learning integration, inventory management, stock-movement functionality, and system integration.
+
 Nunna Sai Vamshi	Research and Literature Survey	Worked on identifying relevant research papers, preparing the literature survey, analysing related approaches, and organising research references.
+
 Mopuru Rama Charan	Requirements and Testing	Worked on requirement analysis, inventory workflow planning, functional testing, and validation of application modules.
+
 Paruchuri Devamshu	Documentation and UI Review	Worked on project documentation, user-interface review, application screenshots, diagrams, and presentation preparation.
 
 
