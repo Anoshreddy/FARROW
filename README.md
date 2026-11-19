@@ -102,14 +102,21 @@ Department: Computer Science and Engineering (AI & ML)
 Institution: School of Engineering, Dayananda Sagar University
 Academic Year: 2025–2026
 Team Contributions
-Team Member	Contribution Summary
-Muchatla Anoshreddy – Team Lead- Overall project development, frontend and backend implementation, database integration, machine-learning integration, inventory management, stock movement functionality, and system integration.
-Nunna Sai Vamshi	Research paper identification, literature survey, research analysis, and preparation of research references.
-Mopuru Rama Charan	Requirement analysis, inventory workflow planning, and functional testing.
-Paruchuri Devamshu	Project documentation, UI review, application screenshots, diagrams, and presentation preparation.
+The project work was divided across development, research, requirements, testing, documentation, and presentation activities. The summaries below describe the team's reported areas of responsibility.
+Team Member	Role	Contribution Summary
+Muchatla Anoshreddy	Team Lead / Full-Stack Development	Coordinated overall project development; worked on frontend and backend implementation, database integration, machine-learning integration, inventory management, stock-movement functionality, and system integration.
+Nunna Sai Vamshi	Research and Literature Survey	Worked on identifying relevant research papers, preparing the literature survey, analysing related approaches, and organising research references.
+Mopuru Rama Charan	Requirements and Testing	Worked on requirement analysis, inventory workflow planning, functional testing, and validation of application modules.
+Paruchuri Devamshu	Documentation and UI Review	Worked on project documentation, user-interface review, application screenshots, diagrams, and presentation preparation.
 
 
-Contribution descriptions should reflect the work actually completed by each member.
+These descriptions should reflect work actually completed by each member.
+GitHub Collaboration and Contribution Recognition
+The repository owner can invite team members as collaborators through Settings → Collaborators. Accepting an invitation grants repository access; it does not automatically add that person to GitHub's Contributors graph.
+
+GitHub attributes contributions based on its contribution-counting rules. To be recognised in the repository's Contributors graph, a member generally needs an eligible commit attributed to their GitHub account. The commit's author email must be associated with and verified on that account, and the commit must meet GitHub's repository and branch eligibility rules.
+
+The README's Team Members and Team Contributions sections provide a written record of the team's roles. They cannot substitute for eligible Git commits or force names to appear in the Contributors graph.
 Limitations and Responsible Use
 - FARROW is an academic prototype and should not be treated as a production inventory or procurement system without further testing and operational controls.
 - Forecast quality depends on the availability, quality, and recency of historical data.
