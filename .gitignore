@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.npm/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Local databases — review before committing if demo data is required
+*.db
+*.sqlite
+*.sqlite3
