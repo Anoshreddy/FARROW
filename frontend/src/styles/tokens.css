@@ -1,0 +1,43 @@
+/* FARROW design tokens — Harvest Forest palette. Nothing outside this file defines a colour. */
+:root {
+  --color-primary: #1F4D36;
+  --color-primary-hover: #193f2c;
+  --color-secondary: #EDE6D6;
+  --color-accent: #C9A24B;
+  --color-bg: #F7F5EF;
+  --color-surface: #FFFFFF;
+
+  --color-text-primary: #1C1C1A;
+  --color-text-secondary: #5B5B54;
+  --color-text-inverse: #EDE6D6;
+
+  --color-healthy: #2F7D4F;
+  --color-warning: #C98A2C;
+  --color-critical: #B3432D;
+
+  /* Tints derived from the palette above, used only as badge / notice backgrounds. */
+  --color-healthy-bg: #E7F3EC;
+  --color-warning-bg: #FBF0DE;
+  --color-critical-bg: #FBEAE5;
+  --color-accent-bg: #F5EBD0;
+  --color-border: #E3DED0;
+  --color-border-strong: #CFC8B4;
+
+  --font-display: 'Sora', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-base: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.625rem;
+  --fs-2xl: 1.875rem;
+
+  --sidebar-width: 244px;
+  --header-height: 56px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --shadow-pop: 0 8px 24px rgba(28, 28, 26, 0.14);
+  --ease: 0.14s ease;
+}

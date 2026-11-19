@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -43,3 +44,10 @@ temp/
 *.db
 *.sqlite
 *.sqlite3
+=======
+__pycache__/
+node_modules/
+frontend/dist/
+backend/data/backups/
+frontend/e2e_shots/
+>>>>>>> e6d0d5a (Initial commit: FARROW inventory management system)
