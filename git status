@@ -1,0 +1,78 @@
+ .gitignore                                    |    5 [32m+[m
+ FIXES_README.md                               |   70 [32m+[m
+ backend/app.py                                |   86 [32m++[m
+ backend/data/inventory.db                     |  Bin [31m0[m -> [32m32768[m bytes
+ backend/database.py                           |    3 [32m+[m
+ backend/db_init.py                            |  189 [32m+++[m
+ backend/models.py                             |   47 [32m+[m
+ backend/routes/admin.py                       |   16 [32m+[m
+ backend/routes/forecast.py                    |   92 [32m++[m
+ backend/routes/inventory_batches.py           |   97 [32m++[m
+ backend/routes/raw_materials.py               |  142 [32m++[m
+ backend/routes/reports.py                     |  347 [32m+++++[m
+ backend/routes/stock_movements.py             |  285 [32m++++[m
+ backend/routes/stockout_risk.py               |  111 [32m++[m
+ backend/routes/warehouses.py                  |  129 [32m++[m
+ backend/seed_data.py                          |   34 [32m+[m
+ backend/services/ml_service.py                |  199 [32m+++[m
+ backend/tests/api_workflow_test.py            |  223 [32m++++[m
+ backend/utils/validation.py                   |   38 [32m+[m
+ data/raw_material_demand_dataset.xlsx         |  Bin [31m0[m -> [32m1700315[m bytes
+ frontend/e2e_workflow.py                      |  310 [32m+++++[m
+ frontend/index.html                           |   14 [32m+[m
+ frontend/package-lock.json                    | 1770 [32m+++++++++++++++++++++++++[m
+ frontend/package.json                         |   23 [32m+[m
+ frontend/public/favicon.ico                   |  Bin [31m0[m -> [32m4284[m bytes
+ frontend/public/favicon.svg                   |    1 [32m+[m
+ frontend/src/App.jsx                          |   35 [32m+[m
+ frontend/src/api/client.js                    |  115 [32m++[m
+ frontend/src/api/useApi.js                    |   33 [32m+[m
+ frontend/src/api/useRefData.js                |   24 [32m+[m
+ frontend/src/api/useRiskMatrix.js             |   81 [32m++[m
+ frontend/src/components/AppShell.jsx          |   29 [32m+[m
+ frontend/src/components/AsyncState.jsx        |   62 [32m+[m
+ frontend/src/components/Button.jsx            |   27 [32m+[m
+ frontend/src/components/Charts.jsx            |   45 [32m+[m
+ frontend/src/components/ConfirmModal.jsx      |   35 [32m+[m
+ frontend/src/components/DataTable.jsx         |  122 [32m++[m
+ frontend/src/components/DetailList.jsx        |   13 [32m+[m
+ frontend/src/components/Field.jsx             |   12 [32m+[m
+ frontend/src/components/FilterBar.jsx         |   50 [32m+[m
+ frontend/src/components/Header.jsx            |   68 [32m+[m
+ frontend/src/components/KpiCard.jsx           |   15 [32m+[m
+ frontend/src/components/Logo.jsx              |   42 [32m+[m
+ frontend/src/components/MissingRefNotice.jsx  |   45 [32m+[m
+ frontend/src/components/Modal.jsx             |   24 [32m+[m
+ frontend/src/components/Notice.jsx            |   17 [32m+[m
+ frontend/src/components/PageHeader.jsx        |   11 [32m+[m
+ frontend/src/components/Section.jsx           |   17 [32m+[m
+ frontend/src/components/Sidebar.jsx           |   40 [32m+[m
+ frontend/src/components/StatusBadge.jsx       |   52 [32m+[m
+ frontend/src/components/nav.js                |   34 [32m+[m
+ frontend/src/index.css                        |    4 [32m+[m
+ frontend/src/lib/alerts.js                    |   33 [32m+[m
+ frontend/src/lib/async.js                     |   13 [32m+[m
+ frontend/src/lib/expiry.js                    |   31 [32m+[m
+ frontend/src/lib/format.js                    |   57 [32m+[m
+ frontend/src/main.jsx                         |   16 [32m+[m
+ frontend/src/pages/Alerts.jsx                 |  101 [32m++[m
+ frontend/src/pages/Batches.jsx                |  124 [32m++[m
+ frontend/src/pages/Dashboard.jsx              |  186 [32m+++[m
+ frontend/src/pages/DemandForecast.jsx         |  215 [32m+++[m
+ frontend/src/pages/Inventory.jsx              |  218 [32m+++[m
+ frontend/src/pages/RawMaterials.jsx           |  305 [32m+++++[m
+ frontend/src/pages/ReorderRecommendations.jsx |  161 [32m+++[m
+ frontend/src/pages/Reports.jsx                |  244 [32m++++[m
+ frontend/src/pages/StockMovements.jsx         |  414 [32m++++++[m
+ frontend/src/pages/StockoutRisk.jsx           |  114 [32m++[m
+ frontend/src/pages/Warehouses.jsx             |  267 [32m++++[m
+ frontend/src/styles/base.css                  |   36 [32m+[m
+ frontend/src/styles/components.css            |  228 [32m++++[m
+ frontend/src/styles/shell.css                 |   89 [32m++[m
+ frontend/src/styles/tokens.css                |   43 [32m+[m
+ frontend/vite.config.js                       |    9 [32m+[m
+ ml/feature_config.pkl                         |  Bin [31m0[m -> [32m369[m bytes
+ ml/gradient_boosting_model.pkl                |  Bin [31m0[m -> [32m271224[m bytes
+ ml/onehot_encoder.pkl                         |  Bin [31m0[m -> [32m1282[m bytes
+ requirements.txt                              |   24 [32m+[m
+ 77 files changed, 8211 insertions(+)
